@@ -1,24 +1,24 @@
 <button type="button" class="btn btn-primary" id="xyz"
-        data-toggle="modal" data-target="#exampleModal" style="display: none;">
+        data-toggle="modal" data-target="#popup" style="display: none;">
 </button>
 <!--Bootstrap modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1"
+<div class="modal fade" id="popup" tabindex="-1"
      role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <!-- Modal heading -->
-{{--            <div class="modal-header">--}}
-{{--                <h5 class="modal-title" id="exampleModalLabel">--}}
-{{--                    GeeksforGeeks--}}
-{{--                </h5>--}}
-{{--                <button type="button" class="close"--}}
-{{--                        data-dismiss="modal" aria-label="Close">--}}
-{{--						<span aria-hidden="true">--}}
-{{--							×--}}
-{{--						</span>--}}
-{{--                </button>--}}
-{{--            </div>--}}
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    GKS
+                </h5>
+                <button type="button" class="close"
+                        data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">
+							×
+						</span>
+                </button>
+            </div>
             <!-- Modal body with image -->
             <div class="modal-body">
                 <img class="img-fluid" src="{{asset('storage/popup.jpg')}}" />
