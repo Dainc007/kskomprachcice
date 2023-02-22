@@ -1,4 +1,4 @@
-<button type="button" class="btn btn-primary" id="xyz"
+<button type="button" class="btn btn-primary" id="welcomePopup"
         data-toggle="modal" data-target="#popup" style="display: none;">
 </button>
 <!--Bootstrap modal -->

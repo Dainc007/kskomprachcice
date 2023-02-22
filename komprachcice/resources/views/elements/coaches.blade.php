@@ -1,4 +1,4 @@
-<div class="row" id="coaches">
+<div class="row p-5 pb-0  shadow-lg" id="coaches">
     @foreach($coaches as $coach)
         <div class="col-lg-3">
             <img style="object-fit: cover;" class="mx-auto d-block rounded-circle" src="{{asset($coach['img_path'])}}"

@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="gradient navbar navbar-expand-md navbar-dark top bg-gradient-warning">
         <a class="navbar-brand" href="#"><img class="img-fluid" width="48" height="48"
                                               src="{{asset('storage/logogks.png')}}"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -15,7 +15,7 @@
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{__("lang.nav.$element")}}
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu gradient" aria-labelledby="navbarDropdown">
                                 @foreach($navGroups as $group)
                                     <a class="dropdown-item"
                                        href="#{{$group}}">{{__("lang.groups.$group")}}

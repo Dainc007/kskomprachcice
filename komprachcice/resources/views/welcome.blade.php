@@ -6,10 +6,12 @@
     -------------------------------------------------- */
         /* Padding below the footer and lighter body text */
 
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
         body {
-            padding-top: 3rem;
             padding-bottom: 3rem;
             color: #5a5a5a;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
         }
 
 
@@ -74,6 +76,24 @@
             line-height: 1;
             letter-spacing: -.05rem;
         }
+        .lead {
+            font-size: 3.5vh;
+        }
+
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .gradient {
+            background: #b92b27;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to top, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to top, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        .custom-heading {
+            margin-top : 0rem;
+        }
 
 
         /* RESPONSIVE CSS
@@ -102,38 +122,17 @@
     <script>
         window.onload = function () {
             if (localStorage.getItem('popState') != 'shown') {
-                document.getElementById("xyz").click();
+                document.getElementById("welcomePopup").click();
                 localStorage.setItem('popState', 'shown')
             }
-
         };
     </script>
-    <div class="container-fluid py-3">
-        @include('elements.nav')
-    </div>
-    {{--   @include('elements.carousel')--}}
+    @include('elements.nav')
+    @include('elements.cover')
+    @include('elements.groups')
+    <!-- Three columns of text below the carousel -->
+    @include('elements.coaches')
     @include('elements.sections')
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center">Grupy</h1>
-        </div>
-
-        @foreach($sectionGroups as $group)
-            <div class="row" id="#{{$group['id']}}">
-                <div class="col-4">
-                    <img class="img img-fluid" src="{{asset($group['img_path'])}}">
-                </div>
-                <div class="col-8">
-                    <h6 class="text-center">
-                        {{$group['name']}}
-                    </h6>
-                    <p class="lead">
-                        {{$group['lead']}}
-                    </p>
-                </div>
-            </div>
-        @endforeach
-    </div>
     @include('elements.footer')
     @include('elements.popup')
 @endsection

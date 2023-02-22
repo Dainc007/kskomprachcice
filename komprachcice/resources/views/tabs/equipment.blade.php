@@ -4,9 +4,9 @@
     <div class="container-fluid">
         @include('elements.nav')
     </div>
-    @include('elements.carousel')
+    @include('elements.cover')
     <div class="container">
-        <img class="img-fluid" src="{{asset('storage/komplet_treningowy.jpg')}}" />
+        <img class="img-fluid" src="{{asset('storage/komplet_treningowy.jpg')}}"/>
     </div>
 
     @include('elements.footer')
