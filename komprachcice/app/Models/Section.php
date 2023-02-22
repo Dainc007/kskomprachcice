@@ -11,6 +11,24 @@ class Section extends Model
 
     public const SECTIONS = [
         [
+            'id'    => 'howToSignIn',
+            'name'  => 'jak sie zapisać?',
+            'heading' => 'Jak zapisać dziecko?',
+            'span' => '',
+            'lead' => 'Wszystkich młodych zawodników,
+             którzy chcą wstąpić w szeregi naszego klubu serdecznie zapraszamy na zajęcia prowadzone przez
+             wykwalifikowanych trenerów. Każde nowe dziecko może śmiało przyjść na zajęcia,
+             aby spróbować czy będą to odpowiednie zajęcia dla niego.
+              Podczas tych zajęć ma możliwość poznania się z trenerem i grupą rówieśników.
+                    Prosimy o kontakt telefoniczny z trenerami,
+                     którzy chętnie udzielą odpowiedzi na wszelkie pytania dotyczące rozpoczęcia przygody z piłką w naszym klubie.
+                    Grupa skrzat (do 7. roku życia "U7") - Krzysztof Szymczak, nr kontaktowy: 693 633 543
+                    Grupa żak (do 9. roku życia "U9") - Sławomir Hetmański, nr kontaktowy: 668 032 729
+                    Grupa orlik (do 11. roku życia "U11") - Adrian Zyla, nr kontaktowy: 790 362 696
+                    Grupa młodzik (do 13. roku życia "U13") - Adrian Zyla, nr kontaktowy: 790 362 696',
+            'img_path' => 'storage/galeria/9.jpg',
+        ],
+        [
             'id'    => 'trainingGear',
             'name'  => 'Sprzęt treningowy',
             'heading' => 'Przedstawiamy sprzęt treningowy Klubu Sportowego Komprachcice.',
@@ -24,25 +42,6 @@ class Section extends Model
                     - getrów
 
                     Można dokonywać zamówienia na pojedyncze części ubioru np. samej koszulki.',
-            'img_path' => 'storage/komplet_treningowy.jpg',
-        ],
-
-        [
-            'id'    => 'howToSignIn',
-            'name'  => 'jak sie zapisać?',
-            'heading' => 'Jak zapisać dziecko?',
-            'span' => 'See for yourself.',
-            'lead' => 'Wszystkich młodych zawodników,
-             którzy chcą wstąpić w szeregi naszego klubu serdecznie zapraszamy na zajęcia prowadzone przez
-             wykwalifikowanych trenerów. Każde nowe dziecko może śmiało przyjść na zajęcia,
-             aby spróbować czy będą to odpowiednie zajęcia dla niego.
-              Podczas tych zajęć ma możliwość poznania się z trenerem i grupą rówieśników.
-                    Prosimy o kontakt telefoniczny z trenerami,
-                     którzy chętnie udzielą odpowiedzi na wszelkie pytania dotyczące rozpoczęcia przygody z piłką w naszym klubie.
-                    Grupa skrzat (do 7. roku życia "U7") - Krzysztof Szymczak, nr kontaktowy: 693 633 543
-                    Grupa żak (do 9. roku życia "U9") - Sławomir Hetmański, nr kontaktowy: 668 032 729
-                    Grupa orlik (do 11. roku życia "U11") - Adrian Zyla, nr kontaktowy: 790 362 696
-                    Grupa młodzik (do 13. roku życia "U13") - Adrian Zyla, nr kontaktowy: 790 362 696',
             'img_path' => 'storage/komplet_treningowy.jpg',
         ],
     ];
@@ -86,7 +85,7 @@ class Section extends Model
         [
             'id'    => 'mid',
             'name' => 'Orlik',
-            'img_path' => 'storage/galeria/3.jpg',
+            'img_path' => 'storage/galeria/5.jpg',
             'lead' => '                     Grupa orlików to dzieci do 11. roku życia (U11),
                     która jest kolejnym etapem na piłkarskim szlaku.
                     Dzieci z tej grupy często uczestniczą w licznych turniejach oraz meczach sparingowych.
