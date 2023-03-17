@@ -6,11 +6,12 @@
     -------------------------------------------------- */
         /* Padding below the footer and lighter body text */
 
-        @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+        /*@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);*/
+        @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
         body {
             padding-bottom: 3rem;
             color: #5a5a5a;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             font-weight: 400;
         }
 
@@ -77,12 +78,14 @@
             letter-spacing: -.05rem;
         }
         .lead {
-            font-size: 3.5vh;
+            /*font-size: 2.5vh;*/
+            font-size: 14px;
         }
 
         p {
             text-align: justify;
             text-justify: inter-word;
+            font-size: 14px;
         }
 
         .gradient {

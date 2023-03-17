@@ -9,12 +9,12 @@
         <div class="row featurette">
             @if($imgOnLeft)
                 <div class="col-md-7">
-                    <h2 class="featurette-heading" style="margin-top:0rem;">
+                    <h2 class="featurette-heading text-center" style="margin-top:0rem;">
                         {{$section['heading']}}<span class="text-muted">
                             <br>{{$section['span']}}
                         </span>
                     </h2>
-                    <p class="lead">{{$section['lead']}}</p>
+                    <p class="lead px-5">{{$section['lead']}}</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-fluid mx-auto" src="{{asset($section['img_path'])}}"

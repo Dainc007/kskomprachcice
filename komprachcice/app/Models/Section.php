@@ -26,7 +26,7 @@ class Section extends Model
                     Grupa żak (do 9. roku życia "U9") - Sławomir Hetmański, nr kontaktowy: 668 032 729
                     Grupa orlik (do 11. roku życia "U11") - Adrian Zyla, nr kontaktowy: 790 362 696
                     Grupa młodzik (do 13. roku życia "U13") - Adrian Zyla, nr kontaktowy: 790 362 696',
-            'img_path' => 'storage/galeria/9.jpg',
+            'img_path' => 'storage/groups/jak_zapisac.jpg',
         ],
         [
             'id'    => 'trainingGear',
@@ -50,7 +50,7 @@ class Section extends Model
         [
             'id'    => 'youngest',
             'name' => 'Skrzaty',
-            'img_path' => 'storage/galeria/1.jpg',
+            'img_path' => 'storage/groups/skrzaty.jpg',
             'lead' => '                        Grupę skrzatów, czyli dzieci do 7. roku życia (U7) prowadzi wspólnie dwójka trenerów:
                         Krzysztof Szymczak oraz Wiktoria Czech. Grupa jest początkiem drogi sportowej dziecka,
                         w której znajdzie mnóstwo zabawy. Skrzaty w naszym klubie mają dwie jednostki trenigowe w tygodniu.
@@ -65,7 +65,7 @@ class Section extends Model
         [
             'id'    => 'young',
             'name' => 'Żaki',
-            'img_path' => 'storage/galeria/2.jpg',
+            'img_path' => 'storage/groups/zaki.jpg',
             'lead' => '
                                 Grupa żaków to dzieci do 9. roku życia (U9),
                     która może być kontynuacją szkolenia w grupie skrzatów,
@@ -85,7 +85,7 @@ class Section extends Model
         [
             'id'    => 'mid',
             'name' => 'Orlik',
-            'img_path' => 'storage/galeria/5.jpg',
+            'img_path' => 'storage/groups/orlik.jpg',
             'lead' => '                     Grupa orlików to dzieci do 11. roku życia (U11),
                     która jest kolejnym etapem na piłkarskim szlaku.
                     Dzieci z tej grupy często uczestniczą w licznych turniejach oraz meczach sparingowych.
@@ -101,7 +101,7 @@ class Section extends Model
         [
             'id'    => 'old',
             'name' => 'Młodzik',
-            'img_path' => 'storage/galeria/4.jpg',
+            'img_path' => 'storage/groups/mlodzik.jpg',
             'lead' => '                    Grupa młodzików to dzieci do 13. roku życia (U13),
                     która już poznane umiejętności z poprzednich etapów szkolenia może prezentować na boiskach ligowych
                     w lidze młodzika organizowanej przez Wojewódzki Związek Piłki Nożnej.
